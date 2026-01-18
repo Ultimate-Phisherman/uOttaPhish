@@ -1,0 +1,33 @@
+[Very Common]
+Goldfish
+Common Carp
+Bluegill
+Tilapia
+Atlantic Cod
+Channel Catfish
+
+[Common]
+Rainbow Trout
+Largemouth Bass
+Pacific Sardine
+Mackerel
+Yellowfin Tuna
+
+[Uncommon]
+Northern Pike
+Red Snapper
+Barramundi
+Swordfish
+Moray Eel
+
+[Rare]
+Bluefin Tuna
+Goliath Grouper
+Napoleon Wrasse
+Coelacanth
+
+[Very Rare]
+Devils Hole Pupfish
+Chinese Paddlefish
+Sawfish
+Totoaba
