@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "uOttaPhish",
+    "version": "1.0",
+    "description": "Catch Phish, and find out who is the best one.",
+    "permissions": [
+        "storage",
+        "windows",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://localhost:8080/*"
+    ],
+    "externally_connectable": {
+        "matches": [
+            "https://outlook.office.com/*",
+            "https://outlook.live.com/*"
+        ]
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+            "matches": [
+                "https://outlook.office.com/*",
+                "https://outlook.live.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
