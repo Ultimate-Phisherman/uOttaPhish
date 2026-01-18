@@ -1,2 +1,2 @@
-# The-Ultimate-Phisherman
+# uOttaPhish
 Team project for uOttaHack 8.
